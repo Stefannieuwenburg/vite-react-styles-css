@@ -1,11 +1,9 @@
-export default function Header ()  {
-    
+import HeaderStyles from "./Header.module.css";
+
+export default function Header() {
     return (
-        <header >
+        <header className={HeaderStyles.header}>
             <h2>Groceries List</h2>
-            
         </header>
-    
     );
 }
- 

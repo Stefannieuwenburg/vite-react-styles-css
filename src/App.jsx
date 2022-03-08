@@ -2,11 +2,12 @@
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
+import AppStyles from "./App.module.css";
 
 //functional component nieuwe manier van react
 export default function App() {
     return (
-        <div className="App">
+        <div className={AppStyles.App}>
             <Header />
             <Content />
             <Footer />
